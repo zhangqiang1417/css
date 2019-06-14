@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+  html,body {
+  height: 100%;
+}
+
+
+.dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+ /*  margin-left: -200px;
+  margin-top: -150px; */
+  
+  /*CSS3属性  相对于自己的偏移*/
+  transform:translate(-50%,-50%);
+  box-shadow: 0px 0px 3px #000;
+}
+
+.dialog .header{
+  padding: 30px;
+  border: 1px solid red;
+  background: #000;
+  color: #fff;
+}
+  
+  
+  </style>
+</head>
+<body>
+<div class="dialog">
+  <div class="header"></div>
+</div>
+</body>
+</html>
